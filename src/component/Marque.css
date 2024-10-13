@@ -1,0 +1,18 @@
+@keyframes borderAnimation{
+    0%{
+        border-color:  rgb(162 28 175);;
+    }
+    50%{
+        border-color: rgba(249, 137, 9, 0.792);
+    }
+    100%{
+        border-color: rgb(162 28 175);;
+    }
+    
+}
+
+.animated-border{
+    border-width: 2px;
+    border-style: solid;
+    animation: borderAnimation 2s infinite;
+}
